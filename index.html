@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/1cb54034b6.js" crossorigin="anonymous"></script>
+</head>
+<body>
+   <h2>DG text editor</h2>
+    <div class="container">
+        
+     <div class="box">
+        <h4>HTML<i class="fa-brands fa-html5"></i></h4>
+        <textarea  id="html-code" rows="15" cols="45"  onkeyup="run()"></textarea>
+     </div>
+     
+     <div class="box">
+        <h4>CSS<i class="fa-brands fa-css3-alt"></i></h4>
+        <textarea  id="css-code" rows="15" cols="45"  onkeyup="run()"></textarea>
+     </div>
+     
+     <div class="box">
+        <h4>JS<i class="fa-brands fa-js"></i></h4>
+        <textarea  id="js-code" rows="15" cols="45" onkeyup="run()"></textarea>
+     </div>
+    </div>
+    <h4>OUTPUT<i class="fa-thin fa-play fa-bounce"></i></h4>
+    <div class="result">
+        
+        <iframe src="" frameborder="0" id="output"></iframe>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
